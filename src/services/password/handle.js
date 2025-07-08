@@ -8,7 +8,7 @@ async function handle() {
     const password_length = process.env.PASSWORD_LENGTH;
 
     for (let i = 0; i < password_length; i++){
-        const index = Math.ceil(Math.random() * characters.length)
+        const index = Math.floor(Math.random() * characters.length)
         password += characters[index];
     }
 

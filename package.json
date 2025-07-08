@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "dev": "cls && node --env-file=.env --watch src/index.js",
-    "start": "npm i && cls && node src/index.js"
+    "start": "cls && node --env-file=.env src/index.js"
   },
   "keywords": [],
   "author": "",
